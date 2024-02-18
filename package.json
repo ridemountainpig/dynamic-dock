@@ -1,0 +1,43 @@
+{
+    "name": "dynamic-dock",
+    "version": "1.0.0",
+    "description": "A React component for creating a dynamic dock menu, mimicking the macOS dock style.",
+    "main": "dist/dynamic-dock.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "format": "npx prettier --write .",
+        "dev": "npx ladle serve"
+    },
+    "keywords": [
+        "react",
+        "macOS dock",
+        "dynamic navigation",
+        "UI component",
+        "interactive",
+        "web design",
+        "image dock",
+        "user interface"
+    ],
+    "author": "ridemountainpig",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.23.9",
+        "@babel/preset-env": "^7.23.9",
+        "@babel/preset-react": "^7.23.3",
+        "@ladle/react": "^4.0.2",
+        "@types/react": "^18.2.55",
+        "@types/react-dom": "^18.2.19",
+        "prettier": "^3.2.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tsup": "^8.0.2",
+        "typescript": "^5.1.6"
+    },
+    "peerDependencies": {
+        "react": "^16.8 || ^17 || ^18",
+        "react-dom": "^16.8 || ^17 || ^18"
+    }
+}
